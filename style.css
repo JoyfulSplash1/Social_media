@@ -26,7 +26,6 @@
     flex-direction: column;
     width: 80%;
     height: fit-content;
-    max-height: 80vh;
     background-color: hsl(0, 0%, 12%);
     padding: 15px;
     border-radius: 5px;
@@ -41,13 +40,19 @@
 }
 
 .profile-container_imageContainer {
-    display: block;
     overflow: hidden;
+    width: 100%;
+    height:fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .profile-container_imageContainer img {
     border-radius: 50%;
+    width:70%;
     vertical-align: middle;
 }
+
 
 .profileName {
     font-size: 20px;
@@ -61,7 +66,7 @@
     color: hsl(75, 94%, 57%);
 }
 
-.profileDuscription {
+.profileDescription {
     font-size: 14px;
     font-weight: 300;
     color: hsl(0, 0%, 100%);
